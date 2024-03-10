@@ -5,7 +5,7 @@
 - ✅ Proper use of comment lines
 
 ## 📑 Project List
-- There is currently **no project.**
+- Day #01 - Sakura AI
 
 ## 🚀 How to Use
 ↗️ [Go to Video](https://www.youtube.com/@slenzyycode)
