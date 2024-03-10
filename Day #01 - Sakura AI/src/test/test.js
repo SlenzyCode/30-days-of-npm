@@ -1,5 +1,5 @@
 const { Gpt } = require("../app"); // Enter your module file path here
-const gpt = new Gpt({ key: "zd-u8BVCL34VnqVwWy" }); // The key you will enter here is SakuraAI api key, you can contact via discord to get it
+const gpt = new Gpt({ key: "api_key" }); // The key you will enter here is SakuraAI api key, you can contact via discord to get it
 
 // Execute an asynchronous function to call the 'ai' method of the Gpt class
 (async () => {
