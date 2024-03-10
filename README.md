@@ -15,4 +15,4 @@
 - Star this project.
 
 ## License
-This project is licensed under the **GNU** license. For more information, check out the **[LICENSE](https://github.com/SlenzyCode/30-dasys-of-npm?tab=GPL-3.0-1-ov-file)** file.
+This project is licensed under the **GNU** license. For more information, check out the **[LICENSE](https://github.com/SlenzyCode/30-days-of-npm/blob/main/LICENSE)** file.
