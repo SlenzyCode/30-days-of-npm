@@ -10,6 +10,5 @@ const gpt = new Gpt({ key: "api_key" }); // Replace "api_key" with your actual S
     await gpt.ai({ content: "Hello, how are you today?", username: "Slenzy" }).then((response) => {
         // Log the response object received from the 'ai' method to the console
         console.log(response);
-        // Optionally, you can access the reply message using response.reply if available
     });
 })();
