@@ -6,6 +6,7 @@
 
 ## 📑 Project List
 - Day #01 - Sakura AI
+- Day #02 - discord.js v13 to v14
 
 ## 🚀 How to Use
 ↗️ [Go to Video](https://www.youtube.com/@slenzyycode)
