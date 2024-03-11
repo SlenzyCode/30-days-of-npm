@@ -1,12 +1,15 @@
-const { Gpt } = require("../app"); // Enter your module file path here
-const gpt = new Gpt({ key: "api_key" }); // The key you will enter here is SakuraAI api key, you can contact via discord to get it
+// Import the Gpt class from the specified module file path
+const { Gpt } = require("../app"); // Replace "../app" with your actual module file path
 
-// Execute an asynchronous function to call the 'ai' method of the Gpt class
+// Create an instance of the Gpt class with the provided API key
+const gpt = new Gpt({ key: "api_key" }); // Replace "api_key" with your actual SakuraAI API key
+
+// Execute an asynchronous function to interact with the Gpt instance
 (async () => {
-    // Call the 'ai' method with a content and a username
+    // Use the 'ai' method of the Gpt instance to send a message and receive a response
     await gpt.ai({ content: "Hello, how are you today?", username: "Slenzy" }).then((response) => {
-        // Log the response received from the 'ai' method
+        // Log the response object received from the 'ai' method to the console
         console.log(response);
-        // If you wish, you can get the answer to the question asked by making response.message by making response.reply
+        // Optionally, you can access the reply message using response.reply if available
     });
 })();
