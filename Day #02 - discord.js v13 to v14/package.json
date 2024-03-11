@@ -1,0 +1,22 @@
+{
+  "name": "module_name",
+  "version": "0.0.1",
+  "description": "Module Description",
+  "main": "src/test/test.js",
+  "scripts": {
+    "test": "node src/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlenzyCode/30-dasys-of-npm.git"
+  },
+  "author": "Slenzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlenzyCode/30-dasys-of-npm/issues"
+  },
+  "homepage": "https://github.com/SlenzyCode/30-dasys-of-npm#readme",
+  "dependencies": {
+    "sakura.ai": "^1.0.6"
+  }
+}
